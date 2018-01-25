@@ -149,3 +149,62 @@ button.essay {
 	 padding-right: 0.3cm;
 	 color: darkblue;
 }
+/* I'm using text-align center more now, but I still miss <center> */
+button.hub {
+	margin-top: 150px;
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    float: left;
+    font-size: 16px;
+}
+/* hub1 & hub2 being used as float makes the table stick to the margin, this is my workaround */
+button.hub1 {
+	margin-top: 150px;
+	margin-left: 220px;
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    float: left;
+    font-size: 16px;
+}
+button.hub2 {
+	margin-top: 150px;
+	margin-right: 150px;
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    float: left;
+    font-size: 16px;
+}
+/* My first time using the psuedo-class "hover", how exciting */
+button.hub:hover {
+	background-color: red;
+}
+button.hub1:hover {
+	background-color: red;
+}
+button.hub2:hover {
+	background-color: red;
+}
+
+
+
+
+
+
+/* Break to make CSS less confusing. */
+/* Disabled class for disabling buttons. */
+.disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+}
