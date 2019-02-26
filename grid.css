@@ -1,0 +1,119 @@
+/*To reference the class - it must be preceded by a dot, point, period*/
+.container{
+    width:1140px;
+    overflow: hidden;
+    margin:auto;
+}
+/*Margin auto makes the left and right side margin the same*/
+.one{
+    width:65px;
+    float:left;
+    margin-left:15px;
+    margin-right:15px;
+}
+.two{
+    width:160px;
+    float:left;
+    margin-left:15px;
+    margin-right:15px;
+}
+
+.three{
+    width:255px;
+    float:left;
+    margin-left:15px;
+    margin-right:15px;
+}
+
+.four{
+    width:350px;
+    float:left;
+    margin-left:15px;
+    margin-right:15px;
+}
+
+.five{
+    width:445px;
+    float:left;
+    margin-left:15px;
+    margin-right:15px;
+}
+
+.six{
+    width:540px;
+    float:left;
+    margin-left:15px;
+    margin-right:15px;
+}
+
+.seven{
+    width:635px;
+    float:left;
+    margin-left:15px;
+    margin-right:15px;
+}
+
+.eight{
+    width:730px;
+    float:left;
+    margin-left:15px;
+    margin-right:15px;
+}
+
+.nine{
+    width:825px;
+    float:left;
+    margin-left:15px;
+    margin-right:15px;
+}
+
+.ten{
+    width:920px;
+    float:left;
+    margin-left:15px;
+    margin-right:15px;
+}
+.eleven{
+    width:1015px;
+    float:left;
+    margin-left:15px;
+    margin-right:15px;
+}
+
+.twelve{
+    width:1110px;
+    float:left;
+    margin-left:15px;
+    margin-right:15px;
+}
+
+.alpha{
+    margin-left:0px;
+}
+
+.omega{
+    margin-right:0px;
+}
+
+/*clearfix
+http://sonspring.com/journal/clearing-floats*/
+
+.clear{
+    clear:both;
+    display:block;
+    overflow:hidden;
+    visibility:hidden;
+    width:0;
+    height:0;
+}
+
+
+
+
+
+
+
+
+
+
+
